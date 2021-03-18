@@ -75,7 +75,7 @@ sudo yum install -y yum-utils \
     
     查看镜像仓库
     docker search nginx
-## 7.Docker数据持久化
+##      7.Docker数据持久化
     1.volume：
     docker volume create my-vol //创建数据卷
     docker volume ls    //查看所有容器卷
@@ -92,7 +92,7 @@ sudo yum install -y yum-utils \
     
     查看镜像、容器、数据卷所占用的空间。
     docker system df
-#### 8.docker commit定制镜像
+##      8.docker commit定制镜像
     将容器修改后保存为新镜像
     docker commit --author "yuepu" -m="has update" 容器ID 镜像名：v1
         #--author指定修改的作者     -m(--message)记录本次修改的内容
